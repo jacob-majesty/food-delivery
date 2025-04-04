@@ -2,37 +2,47 @@
 
 An end-to-end food ordering and delivery application, built with a modern DevOps toolchain and cloud-native architecture.
 
-## 🚀 Tech Stack
+## 🚀 Overview
 
-- **Backend:** Java / Spring Boot  
-- **Databases:** PostgreSQL (SQL), MongoDB (NoSQL)  
-- **CI/CD:** Jenkins, ArgoCD  
-- **Containerization:** Docker  
-- **Orchestration:** Kubernetes  
-- **Testing & Quality:** JUnit, SonarQube  
-- **Cloud:** (e.g., AWS / GCP / Azure)
+This project demonstrates how to build, deploy, and manage a full-stack food delivery system using microservices, CI/CD automation, and cloud technologies.
 
-## ⚙️ Features
+### ✨ Features
 
-- Customer food ordering flow  
-- Restaurant management  
-- Real-time order tracking (optional)  
-- Scalable microservices architecture  
-- Fully automated CI/CD pipeline
+- ✅ Designed and implemented an end-to-end food delivery application using **Spring Boot** in a microservices architecture  
+- ⚙️ Built a fully automated CI/CD pipeline using **Jenkins** and **ArgoCD**  
+- 📦 Containerized all services with **Docker** and deployed to **Kubernetes** for scalability and resilience  
+- 🧪 Ensured code quality and test coverage using **JUnit** and **SonarQube**  
+- 🛢️ Integrated both **SQL** and **NoSQL** databases to support diverse data requirements  
+- ☁️ Deployed the application on **AWS** to gain hands-on experience with cloud provisioning and scalability  
+- ☸️ Used **AWS EKS** for Kubernetes-based orchestration and integrated **AWS Load Balancer** for traffic management  
+- 🗄️ Managed relational data using **AWS RDS**  
+- 🍃 Simplified NoSQL data management with **MongoDB Atlas**
 
-## 📦 DevOps Highlights
+## 🔧 Technologies Used
 
-- Containerized with **Docker**
-- Deployed on **Kubernetes**
-- Continuous Integration with **Jenkins**
-- Continuous Delivery with **ArgoCD**
-- Code quality analysis via **SonarQube**
-- Automated tests with **JUnit**
+| Category          | Tools & Technologies                     |
+|-------------------|------------------------------------------|
+| Backend           | Java, Spring Boot                        |
+| Containerization  | Docker                                   |
+| Orchestration     | Kubernetes, AWS EKS                      |
+| CI/CD             | Jenkins, ArgoCD                          |
+| Quality & Testing | JUnit, SonarQube                         |
+| Databases         | SQL (AWS RDS), NoSQL (MongoDB Atlas)     |
+| Cloud Infrastructure | AWS (EKS, RDS, Load Balancer)        |
 
-## 🏁 Getting Started
+---
 
-> Clone the repo and start the app using Docker Compose or Helm (depending on your setup).
+## 📁 Project Structure (Optional)
+
+You could also include a simplified version of your folder structure here if helpful.
 
 ```bash
-git clone https://github.com/your-username/food-delivery-app.git
-cd food-delivery-app
+food-delivery/
+├── auth-service/
+├── order-service/
+├── restaurant-service/
+├── delivery-service/
+├── gateway/
+├── ci-cd/
+├── k8s/
+└── README.md
