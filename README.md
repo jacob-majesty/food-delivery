@@ -30,6 +30,12 @@ This project demonstrates how to build, deploy, and manage a full-stack food del
 | Databases         | SQL (AWS RDS), NoSQL (MongoDB Atlas)     |
 | Cloud Infrastructure | AWS (EKS, RDS, Load Balancer)        |
 
+
+![image](https://github.com/user-attachments/assets/a0548ece-e20e-415e-af3c-e3c98a7dde6c)
+
+![image](https://github.com/user-attachments/assets/7c2e7789-42e7-4994-8208-0984c26804f9)
+
+
 ---
 
 ## 📁 Project Structure (Optional)
