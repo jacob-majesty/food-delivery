@@ -31,24 +31,17 @@ This project demonstrates how to build, deploy, and manage a full-stack food del
 | Cloud Infrastructure | AWS (EKS, RDS, Load Balancer)        |
 
 
-![image](https://github.com/user-attachments/assets/a0548ece-e20e-415e-af3c-e3c98a7dde6c)
-
-![image](https://github.com/user-attachments/assets/7c2e7789-42e7-4994-8208-0984c26804f9)
-
-
 ---
 
-## 📁 Project Structure (Optional)
+## 📁 Architectural diagram 
 
-You could also include a simplified version of your folder structure here if helpful.
+![image](https://github.com/user-attachments/assets/29a4754f-b65b-4bd1-a2bd-4d6b62c3a1a7)
 
-```bash
-food-delivery/
-├── auth-service/
-├── order-service/
-├── restaurant-service/
-├── delivery-service/
-├── gateway/
-├── ci-cd/
-├── k8s/
-└── README.md
+--- 
+
+## 📁 CI|CD Flow 
+![image](https://github.com/user-attachments/assets/712bef85-8d86-42b3-9cdb-0ffac0be223c)
+
+
+
+
