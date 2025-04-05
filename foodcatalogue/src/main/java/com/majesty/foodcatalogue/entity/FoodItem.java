@@ -21,7 +21,7 @@ public class FoodItem {
 
     private String itemDescription;
 
-    private boolean isVegetable;
+    private boolean isVegetarian;
 
     private Number price;
 
