@@ -12,9 +12,6 @@ import { RestaurantListingComponent } from './components/restaurant-listing.comp
     CommonModule,
     RestaurantListingRoutingModule,
     RestaurantListingComponent
-  ],
-  exports: [
-      RestaurantListingComponent
-    ]
+  ]
 })
 export class RestaurantListingModule { }

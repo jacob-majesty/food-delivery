@@ -11,7 +11,7 @@ import { OrderSummaryModule } from './order-summary/order-summary.module';
 
 @NgModule({
   declarations: [],
-  imports: [RouterModule, BrowserModule, HeaderComponent, AppComponent, HeaderModule, RestaurantListingModule, HttpClientModule,FoodCatalogueModule, OrderSummaryModule ],
+  imports: [RouterModule, BrowserModule, HeaderComponent, AppComponent, HeaderModule, RestaurantListingModule, HttpClientModule,FoodCatalogueModule, OrderSummaryModule], 
   providers: [],
   bootstrap: []
 })
