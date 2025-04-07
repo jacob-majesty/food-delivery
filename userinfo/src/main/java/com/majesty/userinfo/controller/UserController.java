@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/user")
+@CrossOrigin
 public class UserController {
 
     @Autowired
@@ -24,7 +25,4 @@ public class UserController {
     public ResponseEntity<UserDto> fetchUserDetailsById(@PathVariable Integer userId){
         return userService.fetchUserDetailsById(userId);
     }
-
-
-
 }

@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/foodCatalogue")
+@CrossOrigin
 public class FoodCatalogueController {
 
     @Autowired
